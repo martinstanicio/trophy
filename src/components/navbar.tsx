@@ -16,7 +16,7 @@ export default function Navbar() {
           key={i}
           className="flex-1 border-t-4 border-current bg-primary-foreground p-4 text-primary transition-colors"
         >
-          <Icon className="mx-auto" size="1.75rem" />
+          <Icon className="mx-auto" size="1.5rem" />
           <span className="sr-only">{label}</span>
         </a>
       ))}
